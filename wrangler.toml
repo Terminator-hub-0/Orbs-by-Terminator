@@ -1,0 +1,11 @@
+name = "orbs-worker"
+main = "orbs-worker.js"
+compatibility_date = "2025-01-01"
+
+[[kv_namespaces]]
+binding = "ORBS"
+id = "PASTE_KV_ID_HERE"   # npx wrangler kv namespace create ORBS
+
+# Uncomment to turn the orbs into real AI answers (Workers AI):
+# [ai]
+# binding = "AI"
